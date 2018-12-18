@@ -20,6 +20,10 @@ namespace Exercice_6
             int birthday = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Fiche de renseignement" + Environment.NewLine + Environment.NewLine + lastname + Environment.NewLine + name + Environment.NewLine + (DateTime.Now.Year - birthday));
+            // Variante sauter une line   Console.WriteLine("Fiche de renseignement \n \n nom " + Lastname "\n name" 
+            // $"Fiche de renseignement { Environment.NewLine } {lastname }" // la double quote se met qu'au début et a la fin
+         
+           
 
         }
     }
